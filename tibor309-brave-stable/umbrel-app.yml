@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: tibor309-brave-stable
+name: Brave
+tagline: The browser that puts you first
+icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/brave_icon.png
+category: Networking
+version: "stable"
+port: 3578
+description: >-
+  The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
+  Download now to enjoy a faster ad-free browsing experience that saves data and battery life by blocking tracking software.
+developer: Brave Software, Inc.
+website: https://brave.com/
+submitter: Tibor309
+submission:
+repo: https://github.com/tibor309/brave
+support: https://support.brave.com/
+gallery:
+  - https://i.imgur.com/i3YIjq2.png
+  - https://i.imgur.com/Fq19WkO.png
+  - https://i.imgur.com/Tz6x2sn.png
+releaseNotes: >-
+  Full release notes can be found here: https://brave.com/latest/
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
