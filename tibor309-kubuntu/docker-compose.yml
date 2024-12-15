@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tibor309-kubuntu_server_1
+      APP_PORT: 3000
+
+  server:
+    image: ghcr.io/tibor309/webtop:kubuntu@sha256:b46af9272422f241913e46c2874721ecb2c0de8fd7236e240663409e5137bdd4
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+    shm_size: "1gb"

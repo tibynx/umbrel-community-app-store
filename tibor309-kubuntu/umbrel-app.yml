@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: tibor309-kubuntu
+name: Kubuntu
+tagline: Friendly computing
+icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/kubuntu_icon.png
+category: Desktops
+version: "24.04 LTS"
+port: 3456
+description: >-
+  Kubuntu is a community developed and supported project. Since its launch in October 2004, Kubuntu has become one of the most highly regarded Linux distributions with millions of users around the world.
+  Our mission is to provide the latest stable KDE software, which includes the flagship project Plasma, our desktop environment on top of a stable Ubuntu core.  We release in 6 monthly cycles, following the same freezes/milestones as Ubuntu.
+
+  Kubuntu will always be free to download, free to use and free to distribute to others. With these goals in mind, Kubuntu aims to be the most widely used Linux system, and is the centre of a global open source software ecosystem.
+
+developer: Kubuntu Community
+website: https://kubuntu.org/
+submitter: Tibor309
+submission:
+repo: https://github.com/tibor309/webtop/tree/kubuntu
+support: https://github.com/tibor309/webtop/issues
+gallery:
+  - https://i.imgur.com/tpqz25e.png
+  - https://i.imgur.com/MOtnS8Z.png
+releaseNotes: >-
+  The Kubuntu Team is happy to announce that Kubuntu 24.04 has been released, featuring the ‘beautiful’ KDE Plasma 5.27 simple by default, powerful when needed.
+
+  Codenamed “Noble Numbat”, Kubuntu 24.04 continues our tradition of giving you Friendly Computing by integrating the latest and greatest open source technologies into a high-quality, easy-to-use Linux distribution.
+
+  Under the hood, there have been updates to many core packages, including a new 6.8-based kernel, KDE Frameworks 5.115, KDE Plasma 5.27 and KDE Gear 23.08.
+  
+  Full release notes can be found here: https://kubuntu.org/news/kubuntu-24-04-lts-noble-numbat-released/
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
