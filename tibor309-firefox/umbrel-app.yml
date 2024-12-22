@@ -1,0 +1,41 @@
+manifestVersion: 1
+id: tibor309-firefox
+name: Firefox
+tagline: Get the browser that protects what’s important
+icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/firefox_icon.png
+category: Browsers
+version: "133.0"
+port: 3783
+description: >-
+  Get the gold standard for browsing with speed, privacy and control.
+  
+  Seriously private browsing. Firefox automatically blocks 2000+ online trackers from collecting information about what you do online.
+  No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.
+
+developer: Mozilla Foundation
+website: https://www.mozilla.org/en-US/firefox/
+submitter: Tibor309
+submission:
+repo: https://github.com/tibor309/firefox
+support: https://support.mozilla.org/en-US/products/firefox
+gallery:
+  - https://i.imgur.com/Zad1SCb.png
+  - https://i.imgur.com/hPzG5dc.png
+releaseNotes: >-
+  New:
+    - Firefox now has a new anti-tracking feature, Bounce Tracking Protection, which is now available in Enhanced Tracking Protection's "Strict" mode. This feature detects bounce trackers based on their redirect behavior and periodically purges their cookies and site data to block tracking.
+    - The sidebar to view tabs from other devices can now be opened via the Tab overview menu.
+    - Canvas2D switched from Direct2D to a platform independent acceleration backend on Windows.
+
+  Fixed:
+    - Various security fixes.
+    - The “Picture-in-Picture: auto-open on tab switch” feature from Firefox Labs now behaves more reliably across a wider range of sites, automatically opening relevant videos while ignoring others.
+  
+  Changed:
+    - When server time is available, the "expire" attribute value is adjusted by adding the difference between the server and local times. If the current time is set in the future, cookies that have not expired according to the server time are considered valid.
+    
+  Full release notes can be found at https://www.mozilla.org/en-US/firefox/133.0/releasenotes/
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
