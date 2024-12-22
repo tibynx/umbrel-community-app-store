@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tibor309-ubuntu-cinnamon_server_1
+      APP_PORT: 3000
+
+  server:
+    image: ghcr.io/tibor309/webtop:ubuntu-cinnamon@sha256:3af2b0394cbd1f220f274acba920868676adf01cd19d6ce0386672f9f6dee2b7
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+    shm_size: "1gb"

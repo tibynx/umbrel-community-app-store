@@ -1,0 +1,32 @@
+manifestVersion: 1
+id: tibor309-ubuntu-cinnamon
+name: Ubuntu Cinnamon Remix
+tagline: Ubuntu, traditionally modern
+icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/ubuntu_cinnamon_icon.png
+category: Desktops
+version: "22.04.5"
+port: 3618
+description: >-
+  Ubuntu Cinnamon is a community-driven flavor of Ubuntu, combining Linux Mint’s flagship Cinnamon Desktop with Ubuntu, packed with everything you need to go with it. 
+  Keeping stability, speed, and elegance is our top priority.
+
+  Cinnamon takes the more traditional approach of a GNOME 2 and MATE-like desktop. Similar to Windows 7, it is easy to transition from your Windows system to Ubuntu Cinnamon Remix, and even if you still prefer to keep Windows on the side, you can always dual-boot Windows and Ubuntu Cinnamon.
+
+developer: Joshua Peisach
+website: https://umbrel.com
+submitter: Tibor309
+submission:
+repo: https://github.com/tibor309/webtop/tree/ubuntu-cinnamon
+support: https://github.com/tibor309/webtop/issues
+gallery:
+  - https://i.imgur.com/ToSWLuI.png
+  - https://i.imgur.com/LSYeiew.png
+releaseNotes: >-
+  There are no new “features” with point releases – point releases bring the latest bug fixes and stability improvements so the latest installation will come with it.
+
+  For more information read https://ubuntucinnamon.org/?p=1303
+  
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
