@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: tibor309-brave-stable_server_1
+      APP_HOST: tibor309-brave_server_1
       APP_PORT: 3000
 
   server:
