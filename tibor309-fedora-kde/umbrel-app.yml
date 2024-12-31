@@ -17,8 +17,9 @@ submission:
 repo: https://github.com/tibor309/webtop/tree/fedora-kde
 support: https://github.com/tibor309/webtop/issues
 gallery:
-  - https://i.imgur.com/xhDfGrL.png
-  - https://i.imgur.com/LHRyjXh.png
+  - https://i.imgur.com/k0D7NRy.png
+  - https://i.imgur.com/I1qzx81.png
+  - https://i.imgur.com/EtPYfMM.png
 releaseNotes: >-
   Fedora 41 is now released! You can read more about it at https://fedoramagazine.org/announcing-fedora-linux-41/
 dependencies: []
