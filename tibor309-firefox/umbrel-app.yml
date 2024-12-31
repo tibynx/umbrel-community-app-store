@@ -19,8 +19,9 @@ submission:
 repo: https://github.com/tibor309/firefox
 support: https://support.mozilla.org/en-US/products/firefox
 gallery:
-  - https://i.imgur.com/Zad1SCb.png
-  - https://i.imgur.com/hPzG5dc.png
+  - https://i.imgur.com/Mwe7XSU.png
+  - https://i.imgur.com/imdbPXE.png
+  - https://i.imgur.com/GTPqJuj.png
 releaseNotes: >-
   New:
     - Firefox now has a new anti-tracking feature, Bounce Tracking Protection, which is now available in Enhanced Tracking Protection's "Strict" mode. This feature detects bounce trackers based on their redirect behavior and periodically purges their cookies and site data to block tracking.
