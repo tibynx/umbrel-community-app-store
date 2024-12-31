@@ -16,8 +16,10 @@ submission:
 repo: https://github.com/tibor309/webtop/tree/ubuntu
 support: https://github.com/tibor309/webtop/issues
 gallery:
-  - https://i.imgur.com/IleZG2s.png
-  - https://i.imgur.com/P1ZJ4Er.png
+  - https://i.imgur.com/wpslPSm.png
+  - https://i.imgur.com/TlC1KQ1.png
+  - https://i.imgur.com/XoYfIVR.png
+  - https://i.imgur.com/27DVg6y.png
 releaseNotes: >-
   Release notes can be found at: https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890
 dependencies: []
