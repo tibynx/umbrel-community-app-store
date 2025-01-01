@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tibor309-zen_server_1
+      APP_PORT: 3000
+
+  server:
+    image: ghcr.io/tibor309/zen:1.0.2-b.5@sha256:d8970983718376affd38696e7a0aad4ff9292d86fc1ec29b4fcf0bbad39c4eef
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+    shm_size: "1gb"

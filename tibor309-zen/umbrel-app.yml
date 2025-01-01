@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: tibor309-zen
+name: Zen Browser
+tagline: Welcome to a calmer internet
+icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/zen_beta_icon.png
+category: Browsers
+version: "1.0.2-b.5"
+port: 4618
+description: >-
+  Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.
+  
+  Experience tranquility while browsing the internet with Zen! Our mission is to give you a perfect balance for speed, privacy and productivity
+
+developer: Zen Browser Team
+website: https://www.zen-browser.app/
+submitter: Tibor309
+submission:
+repo: https://github.com/tibor309/zen
+support: https://docs.zen-browser.app/
+gallery:
+  - https://i.imgur.com/C3jRY4v.png
+  - https://i.imgur.com/kTEp4KN.png
+  - https://i.imgur.com/qrwIzNx.png
+releaseNotes: >-
+  If you encounter any issues, please report them on the issues page.
+
+  This release is just a small patch to fix a really annoying issue with extension popups not working correctly.
+
+  Fixes:
+    - Fixed compact mode staying open when toggling while having a popup open
+    - Fixed extension popups not multiplying their height every time they are opened
+
+  Breaking Changes:
+    - Disabled firefox's login manager by default, because safer alternatives are available. Can be enabled again in the preferences
+    
+  Full release notes can be found at https://zen-browser.app/release-notes
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
