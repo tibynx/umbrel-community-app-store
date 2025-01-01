@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/webtop:fedora-kde@sha256:1677b664b70533680ecf78ef7dbb5f4dec9bc4f2d79303333f2300249f0e29b6
+    image: ghcr.io/tibor309/webtop:fedora-kde@sha256:ff7270b8d31c89bc373b7609c6d1888c3e538d2c6c310090a48dad38b3e6017d
     restart: on-failure
     environment:
       - PUID=1000
