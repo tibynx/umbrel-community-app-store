@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: tibor309-qbittorrent_server_1
-      APP_PORT: 8090
+      APP_PORT: 8096
 
   server:
     image: lscr.io/linuxserver/qbittorrent:latest
@@ -12,7 +12,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - WEBUI_PORT=8090
+      - WEBUI_PORT=8096
       - TORRENTING_PORT=35114
       - DOCKER_MODS=ghcr.io/vuetorrent/vuetorrent-lsio-mod:latest
     volumes:
