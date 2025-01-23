@@ -5,7 +5,7 @@ tagline: Free and reliable P2P Bittorrent client
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/qbittorrent/icon.svg
 category: networking
 version: "5.0.3"
-port: 8090
+port: 8096
 description: >-
   qBittorrent is an open-source software alternative to µTorrent. It's designed to meet the needs of most users while using as little CPU and memory as possible.
 
