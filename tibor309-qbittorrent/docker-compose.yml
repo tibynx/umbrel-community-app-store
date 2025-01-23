@@ -3,10 +3,10 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: tibor309-qbittorrent_1
+      APP_HOST: tibor309-qbittorrent_server_1
       APP_PORT: 8090
 
-  qbittorrent:
+  server:
     image: lscr.io/linuxserver/qbittorrent:latest
     container_name: qbittorrent
     environment:
