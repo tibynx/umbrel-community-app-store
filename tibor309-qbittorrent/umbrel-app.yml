@@ -11,7 +11,7 @@ description: >-
 
 
   This version of qBittorrent uses the linuxserver.io image, so it doesn't have integration with other umbrel apps! 
-  This app comes bundled with VueTorrent. To enable it, navigate to tools --> options --> Web UI and select "Use alternative Web UI". In the "Files location" field, enter "/app/vuetorrent" and then click "Save".
+  This app comes bundled with VueTorrent. To enable it, navigate to tools --> options --> Web UI and select "Use alternative Web UI". In the "Files location" field, enter "/vuetorrent" and then click "Save".
 
 developer: qBittorrent
 website: https://qbittorrent.org/
