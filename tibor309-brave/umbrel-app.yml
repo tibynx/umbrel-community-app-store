@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/brave_icon.png
 category: Browsers
-version: "1.73.104"
+version: "1.74.51"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -21,13 +21,8 @@ gallery:
   - https://i.imgur.com/0VJ6vTp.png
   - https://i.imgur.com/TLA8R8A.png
 releaseNotes: >-
-  Web3:
-    - Fixed an issue where the “Speedup transaction” button was not initiating a new transaction. (#42799)
-    - Fixed an issue where the “Post Confirmation” screen was showing incorrect transfer value. (#42770)
-
   General:
-    - Removed “ScreenAI Library” component. (#41629)
-    - Upgraded Chromium to 131.0.6778.204. (#42971) (Changelog for 131.0.6778.204)
+    - Upgraded Chromium to 132.0.6834.160.
 
   Full release notes can be found at https://brave.com/latest/
 dependencies: []

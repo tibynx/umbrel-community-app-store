@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/brave:1.73.104@sha256:a6ed211078f2c7210d761860c2f5d2c6bcae36e29a17ccedc75a9c3ab90bcb21
+    image: ghcr.io/tibor309/brave:1.74.51@sha256:55f75a2f73b68ffe46018cec9ce8bfb69e3880b03bdee7c4d7c82ee9916b7125
     restart: on-failure
     environment:
       - PUID=1000
