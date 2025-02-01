@@ -1,5 +1,5 @@
 # ☔ Tibor's Umbrel App Store
-An app store featuring my projects and apps. This app store is meant to be used on [umbrelOS][umbrel]. 
+An app store featuring my projects and apps for [umbrelOS][umbrel]. All apps are updated monthly.
 
 ## Apps
 ### Browsers
