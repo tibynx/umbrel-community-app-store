@@ -4,7 +4,7 @@ name: Zen Browser
 tagline: Welcome to a calmer internet
 icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/zen_beta_icon.png
 category: Browsers
-version: "1.0.2-b.5"
+version: "1.7.4b"
 port: 4618
 description: >-
   Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.
@@ -24,16 +24,13 @@ gallery:
 releaseNotes: >-
   If you encounter any issues, please report them on the issues page.
 
-  This release is just a small patch to fix a really annoying issue with extension popups not working correctly.
+  Quick fix for a critical bug that was introduced in the previous release.
 
   Fixes:
-    - Fixed compact mode staying open when toggling while having a popup open
-    - Fixed extension popups not multiplying their height every time they are opened
-
-  Breaking Changes:
-    - Disabled firefox's login manager by default, because safer alternatives are available. Can be enabled again in the preferences
+    - Fixed the browser not opening when having multiple windows
+    - Fixed macos fullscreen having a weird shadow
     
-  Full release notes can be found at https://zen-browser.app/release-notes
+  Full release notes can be found at https://zen-browser.app/release-notes#1.7.4b
 dependencies: []
 path: ""
 defaultUsername: ""

@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/zen:1.0.2-b.5@sha256:d8970983718376affd38696e7a0aad4ff9292d86fc1ec29b4fcf0bbad39c4eef
+    image: ghcr.io/tibor309/zen:1.7.4b@sha256:536fc181e0870f5a3b00a4104f29c32b494ba12b5bf2836f242c831a09c5e8c7
     restart: on-failure
     environment:
       - PUID=1000
