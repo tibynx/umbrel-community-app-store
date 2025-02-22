@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/webtop:ubuntu-cinnamon@sha256:e140913e6271b8a0c26a0464e12cebbf6170243ccaa3cf33800a397b2f06d7b0
+    image: ghcr.io/tibor309/webtop:ubuntu-cinnamon@sha256:46d2f964c2ab2917e2faaa5399ef933ddd4f142aa823598171a136d3c890a639
     restart: on-failure
     environment:
       - PUID=1000
