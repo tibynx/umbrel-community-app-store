@@ -4,7 +4,7 @@ name: qBittorrent
 tagline: Free and reliable P2P Bittorrent client
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/qbittorrent/icon.svg
 category: networking
-version: "5.0.3"
+version: "5.0.4"
 port: 8096
 description: >-
   qBittorrent is an open-source software alternative to µTorrent. It's designed to meet the needs of most users while using as little CPU and memory as possible.
@@ -25,14 +25,14 @@ gallery:
   - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/qbittorrent/3.jpg
 releaseNotes: >-
   This update includes several bug fixes and improvements:
-    - Fixed issues with RSS feed handling and episode tracking
-    - Improved torrent management and URL handling in WebUI
-    - Enhanced page reloading behavior after login
-    - Fixed various Windows-specific improvements
-    - Improved torrent tracking and database management
+    - Fix cannot remove trackers via WebAPI
+    - Hide zero and infinity values in peer list only when that setting is set to Alway
+    - Remove stopped torrent from "error" tracker filter
+    - Fix memory leak in context menus
+    - Don't trim string parameters
 
 
-  Full release notes for qBittorrent are available at https://www.qbittorrent.org/news
+  Full release notes for qBittorrent are available at https://www.qbittorrent.org/news#tue-feb-18th-2025---qbittorrent-v5.0.4-release
 dependencies: []
 path: ""
 defaultUsername: ""
