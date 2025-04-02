@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/firefox_icon.png
 category: Browsers
-version: "135.0.1"
+version: "136.0.4"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -24,12 +24,9 @@ gallery:
   - https://i.imgur.com/GTPqJuj.png
 releaseNotes: >-
   Fixed:
-    - Fixed drop-down menus being unusable on some sites relying on certain mousemove event behavior. (Bug 1944191)
-    - Fixed scrolling to the wrong location with anchor tags in some situations. (Bug 1946899)
-    - Fixed being unable to restore closed windows and tabs via the History menu when upgrading from an older Firefox version. (Bug 1947503)
-    - Fixed broken search functionality when updating to Firefox 135 with a custom search engine with an overly-large icon installed. (Bug 1946156)
+    - Fixed CVE-2025-2857: Incorrect handle could lead to sandbox escapes
     
-  Full release notes can be found at https://www.mozilla.org/en-US/firefox/135.0.1/releasenotes/
+  Full release notes can be found at https://www.mozilla.org/en-US/firefox/136.0.4/releasenotes/
 dependencies: []
 path: ""
 defaultUsername: ""
