@@ -2,19 +2,18 @@
 An app store featuring my projects and apps for [umbrelOS][umbrel]. All apps are updated monthly.
 
 ## Apps
-### Browsers
-[![brave][brave-badge]](https://github.com/tibor309/brave)
-[![firefox][firefox-badge]](https://github.com/tibor309/firefox)
-[![zen][zen-badge]](https://github.com/tibor309/zen)
-
-### Desktops 
-[![fedora-kde][fedora-kde-badge]](https://github.com/tibor309/webtop/tree/fedora-kde)
-[![ubuntu][ubuntu-badge]](https://github.com/tibor309/webtop/tree/ubuntu)
-[![ubuntu-cinnamon][ubuntu-cinnamon-badge]](https://github.com/tibor309/webtop/tree/ubuntu-cinnamon)
-[![kubuntu][kubuntu-badge]](https://github.com/tibor309/webtop/tree/ubuntu)
-
-### Networking
-[![qbittorrent][qbittorrent-badge]](https://github.com/linuxserver/docker-qbittorrent)
+| Icon | App name | Description | Category |
+| :---: | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/brave_icon.png" alt="brave-icon" width="20" height="20"> | [**Brave**](https://github.com/tibor309/brave) |  A privacy-focused browser that blocks ads and trackers by default, offering faster browsing and built-in cryptocurrency wallet support.  | Networking |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/firefox_icon.png" alt="firefox-icon" width="20" height="20"> | [**Firefox**](https://github.com/tibor309/firefox) | An open-source browser known for its customizability, strong privacy features, and support for a wide range of extensions.  | Networking |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/floorp_icon.png" alt="floorp-icon" width="20" height="20"> | [**Floorp**](https://github.com/tibor309/floorp) | A privacy-centric browser tailored for productivity, featuring a customizable interface and enhanced privacy tools. | Networking |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/zen_beta_icon.png" alt="zen-icon" width="20" height="20"> | [**Zen Browser**](https://github.com/tibor309/zen) | A lightweight browser designed for simplicity and speed, often emphasizing minimalism and user-friendly design.  | Networking |
+| <img src="https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/qbittorrent/icon.svg" alt="qbittorrent-icon" width="20" height="20"> | [**qBittorrent**](https://github.com/linuxserver/docker-qbittorrent) | A lightweight and open-source BitTorrent client offering a clean interface, powerful features, and no ads, designed to meet the needs of most users. | Networking |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/fedora_icon.png" alt="fedora-icon" width="20" height="20"> | [**Fedora KDE Plasma Desktop**](https://github.com/tibor309/webtop/tree/fedora-kde) | A Fedora-based desktop environment featuring the modern and highly customizable KDE Plasma interface, designed for productivity and performance.  | Desktops |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/ubuntu_icon.png" alt="ubuntu-icon" width="20" height="20"> | [**Ubuntu**](https://github.com/tibor309/webtop/tree/ubuntu) | A popular Linux distribution known for its user-friendly interface, stability, and extensive community support.  | Desktops |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/ubuntu_cinnamon_icon.png" alt="ubuntu-cinnamon-icon" width="20" height="20"> |  [**Ubuntu Cinnamon Remix**](https://github.com/tibor309/webtop/tree/ubuntu-cinnamon) | A flavor of Ubuntu that integrates the Cinnamon desktop environment, offering a sleek and traditional user experience.  | Desktops |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/kubuntu_icon.png" alt="kubuntu-icon" width="20" height="20"> | [**Kubuntu**](https://github.com/tibor309/webtop/tree/kubuntu) | An official Ubuntu flavor that uses the KDE Plasma desktop environment, combining Ubuntu's stability with KDE's flexibility and customization options. | Desktops |
+| <img src="https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/zorin_icon.png" alt="kubuntu-icon" width="20" height="20"> | [**Zorin OS Core**](https://github.com/tibor309/webtop/tree/zorinos-core) | A user-friendly Linux distribution designed to resemble Windows, offering a sleek interface, stability, and a smooth transition for new Linux users. | Desktops |
 
 ## Setup
 1. Launch the Umbrel App Store on umbrelOS.
@@ -26,12 +25,3 @@ https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-
 
 
 [umbrel]: https://umbrel.com/umbrelos
-
-[brave-badge]: https://img.shields.io/badge/Brave-FB542B.svg?style=for-the-badge&logo=Brave&logoColor=white
-[firefox-badge]: https://img.shields.io/badge/Firefox-FF7139.svg?style=for-the-badge&logo=Firefox-Browser&logoColor=white
-[zen-badge]: https://img.shields.io/badge/Zen%20Browser-f76f53.svg?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJhIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij48ZGVmcz48c3R5bGU+LmJ7ZmlsbDojZmZmO2ZpbGwtcnVsZTpldmVub2RkO308L3N0eWxlPjwvZGVmcz48cGF0aCBjbGFzcz0iYiIgZD0iTTEyOCwxNzcuMjNjMjcuMTksMCw0OS4yMy0yMi4wNCw0OS4yMy00OS4yM3MtMjIuMDQtNDkuMjMtNDkuMjMtNDkuMjMtNDkuMjMsMjIuMDQtNDkuMjMsNDkuMjMsMjIuMDQsNDkuMjMsNDkuMjMsNDkuMjNaTTE2Ny4zOCwxMjhjMCwyMS43NS0xNy42MywzOS4zOC0zOS4zOCwzOS4zOHMtMzkuMzgtMTcuNjMtMzkuMzgtMzkuMzgsMTcuNjMtMzkuMzgsMzkuMzgtMzkuMzgsMzkuMzgsMTcuNjMsMzkuMzgsMzkuMzhaIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0yMTMuMzMsMTI4YzAsNDcuMTMtMzguMiw4NS4zMy04NS4zMyw4NS4zM3MtODUuMzMtMzguMi04NS4zMy04NS4zMywzOC4yLTg1LjMzLDg1LjMzLTg1LjMzLDg1LjMzLDM4LjIsODUuMzMsODUuMzNaTTEyOCwxOTYuOTJjMzguMDcsMCw2OC45Mi0zMC44Niw2OC45Mi02OC45MnMtMzAuODYtNjguOTItNjguOTItNjguOTItNjguOTIsMzAuODYtNjguOTIsNjguOTIsMzAuODYsNjguOTIsNjguOTIsNjguOTJaIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik0yNTYsMTI4YzAsNzAuNjktNTcuMzEsMTI4LTEyOCwxMjhTMCwxOTguNjksMCwxMjgsNTcuMzEsMCwxMjgsMHMxMjgsNTcuMzEsMTI4LDEyOFpNMTI4LDIzMy4wM2M1OCwwLDEwNS4wMy00Ny4wMiwxMDUuMDMtMTA1LjAzUzE4NiwyMi45NywxMjgsMjIuOTcsMjIuOTcsNzAsMjIuOTcsMTI4czQ3LjAyLDEwNS4wMywxMDUuMDMsMTA1LjAzWiIvPjwvc3ZnPg==
-[fedora-kde-badge]: https://img.shields.io/badge/Fedora%20Kde%20Plasma-51A2DA.svg?style=for-the-badge&logo=Fedora&logoColor=white
-[ubuntu-badge]: https://img.shields.io/badge/Ubuntu-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white
-[ubuntu-cinnamon-badge]: https://img.shields.io/badge/Ubuntu%20Cinnamon%20Remix-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white
-[kubuntu-badge]: https://img.shields.io/badge/Kubuntu-0079C1.svg?style=for-the-badge&logo=Kubuntu&logoColor=white
-[qbittorrent-badge]: https://img.shields.io/badge/qbittorrent-2F67BA.svg?style=for-the-badge&logo=qbittorrent&logoColor=white
