@@ -3,7 +3,7 @@ id: tibor309-firefox
 name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/firefox_icon.png
-category: Browsers
+category: networking
 version: "136.0.4"
 port: 3783
 description: >-
