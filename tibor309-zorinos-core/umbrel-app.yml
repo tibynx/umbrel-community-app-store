@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: tibor309-zorinos-core
+name: Zorin OS Core
+tagline: Make your computer better
+icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/icon.svg
+category: Desktops
+version: "17.3"
+port: 3240
+description: >-
+  Zorin OS is a Linux distribution based on Ubuntu that is designed to be user-friendly and accessible to users of all skill levels. 
+  It features a modern and intuitive interface, making it easy for anyone to use, regardless of their technical background.
+  
+  Zorin OS is built on the solid foundation of Ubuntu, which means it benefits from the stability and security of the Ubuntu ecosystem.   
+  With its focus on user experience and accessibility, Zorin OS is an excellent choice for anyone looking to switch to Linux or simply improve their computing experience.
+
+developer: Zorin Group
+website: https://zorin.com/os/
+submitter: Tibor309
+submission:
+repo: https://github.com/tibor309/webtop/tree/zorinos-core
+support: https://github.com/tibor309/webtop/issues
+gallery:
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/1.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/2.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/3.png
+releaseNotes: >-
+  Zorin OS 17.3 is now released! Heres what's new:
+  - Security updates and bug fixes
+  - Updated software packages
+  - Brave as the new default browser
+  - Improvements to the Zorin Connect app
+  - Improvements for touchscreen devices
+
+  For more, visit the official release notes at https://blog.zorin.com/2025/03/26/zorin-os-17.3-is-here/.
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

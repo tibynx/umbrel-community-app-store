@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tibor309-zorinos-core_server_1
+      APP_PORT: 3588
+
+  server:
+    image: ghcr.io/tibor309/webtop:
+    security_opt:
+      - seccomp:unconfined
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+    shm_size: "1gb"
