@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tibor309-zen
 name: Zen Browser
 tagline: Welcome to a calmer internet
-icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/zen_beta_icon.png
+icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/icon.svg
 category: networking
 version: "1.7.4b"
 port: 4618
@@ -18,9 +18,9 @@ submission:
 repo: https://github.com/tibor309/zen
 support: https://docs.zen-browser.app/
 gallery:
-  - https://i.imgur.com/C3jRY4v.png
-  - https://i.imgur.com/kTEp4KN.png
-  - https://i.imgur.com/qrwIzNx.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/1.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/2.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/3.png
 releaseNotes: >-
   If you encounter any issues, please report them on the issues page.
 
