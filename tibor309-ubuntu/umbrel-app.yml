@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tibor309-ubuntu
 name: Ubuntu
 tagline: Fast, modern and secure linux 
-icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/ubuntu_icon.png
+icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/icon.svg
 category: Desktops
 version: "24.04.1 LTS"
 port: 3240
@@ -16,10 +16,10 @@ submission:
 repo: https://github.com/tibor309/webtop/tree/ubuntu
 support: https://github.com/tibor309/webtop/issues
 gallery:
-  - https://i.imgur.com/wpslPSm.png
-  - https://i.imgur.com/TlC1KQ1.png
-  - https://i.imgur.com/XoYfIVR.png
-  - https://i.imgur.com/27DVg6y.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/1.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/2.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/3.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/4.png
 releaseNotes: >-
   Release notes can be found at: https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890
 dependencies: []
