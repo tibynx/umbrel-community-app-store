@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tibor309-kubuntu
 name: Kubuntu
 tagline: Friendly computing
-icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/kubuntu_icon.png
+icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-kubuntu/icon.svg
 category: Desktops
 version: "24.04 LTS"
 port: 3456
@@ -19,9 +19,9 @@ submission:
 repo: https://github.com/tibor309/webtop/tree/kubuntu
 support: https://github.com/tibor309/webtop/issues
 gallery:
-  - https://i.imgur.com/lkO4szN.png
-  - https://i.imgur.com/Ke7tO9v.png
-  - https://i.imgur.com/gQSjVfj.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-kubuntu/1.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-kubuntu/2.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-kubuntu/3.png
 releaseNotes: >-
   The Kubuntu Team is happy to announce that Kubuntu 24.04 has been released, featuring the ‘beautiful’ KDE Plasma 5.27 simple by default, powerful when needed.
 
