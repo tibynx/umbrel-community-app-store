@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tibor309-fedora-kde
 name: Fedora KDE Plasma Desktop
 tagline: The leading Linux desktop
-icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/fedora_icon.png
+icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/icon.svg
 category: Desktops
 version: "41"
 port: 3234
@@ -17,9 +17,9 @@ submission:
 repo: https://github.com/tibor309/webtop/tree/fedora-kde
 support: https://github.com/tibor309/webtop/issues
 gallery:
-  - https://i.imgur.com/k0D7NRy.png
-  - https://i.imgur.com/I1qzx81.png
-  - https://i.imgur.com/EtPYfMM.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/1.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/2.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/3.png
 releaseNotes: >-
   Fedora 41 is now released! You can read more about it at https://fedoramagazine.org/announcing-fedora-linux-41/
 dependencies: []
