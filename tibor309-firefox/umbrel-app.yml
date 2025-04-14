@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tibor309-firefox
 name: Firefox
 tagline: Get the browser that protects what’s important
-icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/firefox_icon.png
+icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/icon.svg
 category: networking
 version: "136.0.4"
 port: 3783
@@ -19,9 +19,9 @@ submission:
 repo: https://github.com/tibor309/firefox
 support: https://support.mozilla.org/en-US/products/firefox
 gallery:
-  - https://i.imgur.com/Mwe7XSU.png
-  - https://i.imgur.com/imdbPXE.png
-  - https://i.imgur.com/GTPqJuj.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/1.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/2.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/3.png
 releaseNotes: >-
   Fixed:
     - Fixed CVE-2025-2857: Incorrect handle could lead to sandbox escapes
