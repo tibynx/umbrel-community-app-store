@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tibor309-brave
 name: Brave
 tagline: The browser that puts you first
-icon: https://raw.githubusercontent.com/tibor309/icons/refs/heads/main/umbrel/brave_icon.png
+icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/icon.svg
 category: networking
 version: "1.76.82"
 port: 3578
@@ -16,10 +16,10 @@ submission:
 repo: https://github.com/tibor309/brave
 support: https://support.brave.com/
 gallery:
-  - https://i.imgur.com/kDY9aQ4.png
-  - https://i.imgur.com/WtxzGjP.png
-  - https://i.imgur.com/0VJ6vTp.png
-  - https://i.imgur.com/TLA8R8A.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/1.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/2.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/3.png
+  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/4.png
 releaseNotes: >-
   General:
     - Upgraded Chromium to 134.0.6998.178. (#44940)
