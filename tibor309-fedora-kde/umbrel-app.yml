@@ -8,6 +8,7 @@ version: "41"
 port: 3234
 description: >-
   The Fedora KDE Plasma Desktop Edition is a powerful Fedora-based operating system utilizing the KDE Plasma Desktop as the main user interface.
+
   All KDE applications are well integrated, with a similar look and feel and an easy to use interface, accompanied by an outstanding graphical appearance.
 
 developer: Red Hat
@@ -21,7 +22,16 @@ gallery:
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/2.png
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/3.png
 releaseNotes: >-
-  Fedora 41 is now released! You can read more about it at https://fedoramagazine.org/announcing-fedora-linux-41/
+  Fedora 41 is now released! New features include:
+
+    - DNF 5 package manager
+    - New GNOME 47 desktop environment
+    - Updated KDE Plasma to 6.2
+    - Updated software packages
+    - MIPI, and Pipewire camera support in Firefox
+    - Improved performance and stability
+
+  You can read more about it at https://fedoramagazine.org/announcing-fedora-linux-41/
 dependencies: []
 path: ""
 defaultUsername: ""
