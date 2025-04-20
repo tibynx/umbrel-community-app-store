@@ -4,7 +4,7 @@ name: Ubuntu
 tagline: Fast, modern and secure linux 
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/icon.svg
 category: Desktops
-version: "24.04.1 LTS"
+version: "24.04.2 LTS"
 port: 3240
 description: >-
     Fast, secure and stylishly simple, the Ubuntu operating system is used by 50 million people worldwide every day.
@@ -21,7 +21,10 @@ gallery:
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/3.png
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-ubuntu/4.png
 releaseNotes: >-
-  Release notes can be found at: https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890
+  As usual, this point release includes many updates and updated installation media has been provided so that fewer updates will need to be downloaded after installation. 
+  These include security updates and corrections for other high-severity bugs, with a focus on maintaining stability and compatibility with Ubuntu 24.04 LTS.
+  
+  Release notes for Ubuntu 24.04 LTS can be found at https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890
 dependencies: []
 path: ""
 defaultUsername: ""
