@@ -13,7 +13,7 @@ description: >-
   Cinnamon takes the more traditional approach of a GNOME 2 and MATE-like desktop. Similar to Windows 7, it is easy to transition from your Windows system to Ubuntu Cinnamon Remix, and even if you still prefer to keep Windows on the side, you can always dual-boot Windows and Ubuntu Cinnamon.
 
 developer: Joshua Peisach
-website: https://umbrel.com
+website: https://ubuntucinnamon.org
 submitter: Tibor309
 submission:
 repo: https://github.com/tibor309/webtop/tree/ubuntu-cinnamon
