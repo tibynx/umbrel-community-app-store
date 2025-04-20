@@ -7,11 +7,9 @@ category: Desktops
 version: "24.04 LTS"
 port: 3456
 description: >-
-  Kubuntu is a community developed and supported project. Since its launch in October 2004, Kubuntu has become one of the most highly regarded Linux distributions with millions of users around the world.
-  Our mission is to provide the latest stable KDE software, which includes the flagship project Plasma, our desktop environment on top of a stable Ubuntu core.  We release in 6 monthly cycles, following the same freezes/milestones as Ubuntu.
+  Kubuntu is a user-friendly Linux distribution based on Ubuntu that features the KDE Plasma desktop environment. 
 
-  Kubuntu will always be free to download, free to use and free to distribute to others. With these goals in mind, Kubuntu aims to be the most widely used Linux system, and is the centre of a global open source software ecosystem.
-
+  It is designed to be easy to use and provides a modern and visually appealing interface, making it suitable for both new and experienced users.
 developer: Kubuntu Community
 website: https://kubuntu.org/
 submitter: Tibor309
