@@ -5,7 +5,7 @@ tagline: Make your computer better
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/icon.svg
 category: Desktops
 version: "17.3"
-port: 3240
+port: 3588
 description: >-
   Zorin OS is a Linux distribution based on Ubuntu that is designed to be user-friendly and accessible to users of all skill levels. 
   It features a modern and intuitive interface, making it easy for anyone to use, regardless of their technical background.
