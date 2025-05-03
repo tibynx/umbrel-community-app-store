@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/icon.svg
 category: networking
-version: "136.0.4"
+version: "138.0"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -23,10 +23,20 @@ gallery:
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/2.png
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/3.png
 releaseNotes: >-
+  New:
+    - Profile management (read more on the blog)
+    - Weather suggestions in the address bar (US only)
+    - Tab Groups
+    - You can now copy links from background tabs using the tabstrip context menu
+
   Fixed:
-    - Fixed CVE-2025-2857: Incorrect handle could lead to sandbox escapes
+    - Various security fixes (read more on the blog)
+
+  Changed:
+    - Improved the address and credit card autofill experience
+    - Rededicated previous color settings to Contrast Control settings.
     
-  Full release notes can be found at https://www.mozilla.org/en-US/firefox/136.0.4/releasenotes/
+  Full release notes can be found at https://www.mozilla.org/en-US/firefox/138.0/releasenotes/
 dependencies: []
 path: ""
 defaultUsername: ""
