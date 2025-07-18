@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/icon.svg
 category: networking
-version: "139.0"
+version: "140.0.4"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -27,14 +27,12 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Full-Page Translations are now available within Firefox extension pages that start with the moz-extension:// URL scheme.
-    - The New Tab custom wallpaper (and colors) option is now available! This feature will be rolling out gradually to new users and can also be enabled immediately via Firefox Labs.
-    - Link Previews is are available as an experimental feature which can be enabled via Firefox Labs in the Firefox settings. 
-    - PNG images with transparency now keep their transparency when pasted into Firefox.
-    - The Review Checker feature is shutting down and will no longer be available after June 10, 2025.
+    - Firefox's QUIC stack is moving to a Rust based UDP I/O stack for improved performance.
+    - Fixed incorrect font selection in some cases when attempting to use color fonts.
+    - Fixed the search results not updating when switching source during a file search in the Developer Tool's debugger.
 
 
-  Full release notes can be found at https://www.mozilla.org/en-US/firefox/139.0/releasenotes/
+  Full release notes can be found at https://www.mozilla.org/en-US/firefox/140.0.4/releasenotes/
 dependencies: []
 path: ""
 permissions:
