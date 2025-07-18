@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/icon.svg
 category: networking
-version: "1.79.118"
+version: "1.80.122"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -25,15 +25,8 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Added “Connections” tab in the wallet panel for concurrent connections between “EVM” and “SVM” networks.
-    - Added “Reset ZCash sync state” setting under brave://settings/web3.
-    - Added “DeepSeek R1” to the list of pre-loaded models for Leo.
-    - Improved chat experience in Leo with support for links, inline citations, and full page screenshots.
-    - Added support for HTTPS links in responses when using Bring Your Own Model (BYOM) in Leo.
-    - Fixed issue with WebSocket reconnection.
-    - Fixed Brave and Chromium versions displaying as “undefined” in brave://settings/help when browser language is not English.
-    - Updated download button icon.
-    - Upgraded Chromium to 137.0.7151.61.
+    - Fixed crash on brave://tor-internals which occurred while the Tor network was still connecting.
+    - Upgraded Chromium to 138.0.7204.157. 
 
 
   Full release notes can be found at https://brave.com/latest/
