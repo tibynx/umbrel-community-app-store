@@ -7,7 +7,7 @@ services:
       APP_PORT: 8096
 
   server:
-    image: lscr.io/linuxserver/qbittorrent:5.0.4@sha256:dc9e13d2edab18cc7c42367526182b2798f9f0f4c590559337f954fb4e3bdc35
+    image: lscr.io/linuxserver/qbittorrent:5.1.2@sha256:d6aebe87050274db1e80b54ed8be5684836d57698fbc840e29df24ef0471cf12
     environment:
       - PUID=1000
       - PGID=1000
