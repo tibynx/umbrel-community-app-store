@@ -4,7 +4,7 @@ name: Zen Browser
 tagline: Welcome to a calmer internet
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/icon.svg
 category: networking
-version: "1.7.4b"
+version: "1.14.5b"
 port: 4618
 description: >-
   Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.
@@ -24,13 +24,11 @@ gallery:
 releaseNotes: >-
   If you encounter any issues, please report them on the issues page.
 
-  Quick fix for a critical bug that was introduced in the previous release.
-
   Fixes:
-    - Fixed the browser not opening when having multiple windows
-    - Fixed macos fullscreen having a weird shadow
+    - Fixed compact mode turning off when restoring windows
+    - Fixed accessibility issues when using custom colors
     
-  Full release notes can be found at https://zen-browser.app/release-notes#1.7.4b
+  Full release notes can be found at https://zen-browser.app/release-notes#1.14.5b
 dependencies: []
 path: ""
 defaultUsername: ""
