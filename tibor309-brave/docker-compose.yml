@@ -13,6 +13,10 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
+    security_opt:
+      - no-new-privileges:true
+    ports:
+      - 3577:3001
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
     shm_size: "1gb"
