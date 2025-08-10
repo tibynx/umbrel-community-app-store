@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/webtop:ubuntu@sha256:8ee7a99889a9edeadb2abe36e9e95c59be8cdfa70e30242133f2474f8e4c3e00
+    image: ghcr.io/tibor309/webtop:ubuntu@sha256:1b1de164a954208d6af07ca52dd50cddc891a25d68c64bbc45e69f36aeaecafc
     security_opt:
       - seccomp:unconfined
     restart: on-failure
