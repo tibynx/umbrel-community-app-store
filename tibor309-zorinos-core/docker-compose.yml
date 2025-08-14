@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/webtop:zorinos-core@sha256:1ae049541614f5b5b1fb023de7dfe479953b0492356aae42cda4794346b1882d
+    image: ghcr.io/tibor309/webtop:zorinos-core@sha256:af1b0c56c29c3e022ad621dc49a5bfa602c2a934412185078ded150c334ac47c
     security_opt:
       - seccomp:unconfined
     restart: on-failure
