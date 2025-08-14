@@ -1,12 +1,14 @@
-manifestVersion: 1
+manifestVersion: 1.2
 id: tibor309-zen
 name: Zen Browser
 tagline: Welcome to a calmer internet
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/icon.svg
 category: networking
-version: "1.14.5b"
+version: "1.7.6b"
 port: 4618
 description: >-
+  ⚠ This app is disabled as there are no more updates that work without HTTPS on Umbrel.
+
   Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.
   
   Experience tranquility while browsing the internet with Zen! Our mission is to give you a perfect balance for speed, privacy and productivity
@@ -22,14 +24,18 @@ gallery:
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/2.png
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zen/3.png
 releaseNotes: >-
-  If you encounter any issues, please report them on the issues page.
+ This release is a small one, but it brings a few fixes and a new feature. 
 
-  Fixes:
-    - Fixed compact mode turning off when restoring windows
-    - Fixed accessibility issues when using custom colors
+  Highlights include:
+    - Fixed sidebar icons all looking the same
+    - Fixed floating URL bar making the compact mode appear for some time
+    - Fixed notifications not being able to be closed
+    - Fixed changing tabs not being scrolled to when overflowing the sidebar
+    - Tabs can now be dragged into pinned tabs by dragging them into the workspace indicator
     
-  Full release notes can be found at https://zen-browser.app/release-notes#1.14.5b
+  Full release notes can be found at https://zen-browser.app/release-notes#1.7.6b
 dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+disabled: true
