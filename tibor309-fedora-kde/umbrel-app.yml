@@ -1,4 +1,4 @@
-manifestVersion: 1
+manifestVersion: 1.2
 id: tibor309-fedora-kde
 name: Fedora KDE Plasma Desktop
 tagline: The leading Linux desktop
@@ -7,6 +7,8 @@ category: Desktops
 version: "41"
 port: 3234
 description: >-
+  ⚠ This app is disabled as there are no more updates that work without HTTPS on Umbrel.
+
   The Fedora KDE Plasma Desktop Edition is a powerful Fedora-based operating system utilizing the KDE Plasma Desktop as the main user interface.
 
   All KDE applications are well integrated, with a similar look and feel and an easy to use interface, accompanied by an outstanding graphical appearance.
@@ -22,10 +24,10 @@ gallery:
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/2.png
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-fedora-kde/3.png
 releaseNotes: >-
-  Fedora 41 is now released! New features include:
-
+  Fedora 41 is now released!
+  
+  New features include:
     - DNF 5 package manager
-    - New GNOME 47 desktop environment
     - Updated KDE Plasma to 6.2
     - Updated software packages
     - MIPI, and Pipewire camera support in Firefox
@@ -36,3 +38,4 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+disabled: true
