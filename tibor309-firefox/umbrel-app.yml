@@ -4,11 +4,9 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/icon.svg
 category: networking
-version: "140.0"
+version: "142.0.1"
 port: 3783
 description: >-
-  ⚠ This app is disabled as there are no more updates that work without HTTPS on Umbrel.
-
   Get the gold standard for browsing with speed, privacy and control.
   
   Seriously private browsing. Firefox automatically blocks 2000+ online trackers from collecting information about what you do online.
@@ -29,18 +27,17 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Vertical Tabs: You can now keep more — or fewer — pinned tabs in view for quicker access to important windows.
-    - Firefox now supports adding even more search engines.
-    - You can now unload tabs by right-clicking on a tab (or multiple selected tabs) and selecting "Unload Tab".
-    - Full-Page Translations now prioritizes translating only the content near your current view.
-    - The Pocket toolbar icon, as well as the Pocket integrations on New Tab, have been removed.
+    - Dragging multiple non-adjacent tabs in horizontal tab strip mode now correctly moves them together as a group.
+    - Dragging multiple tabs no longer causes toolbar unresponsiveness or visual glitches.
+    - Fixed an issue where the text cursor appeared in the wrong location.
+    - Fixed an issue where the expand on hover feature in the sidebar would sometimes stop working.
 
 
-  Full release notes can be found at https://www.mozilla.org/en-US/firefox/140.0/releasenotes/
+  Full release notes can be found at https://www.mozilla.org/en-US/firefox/142.0.1/releasenotes/
 dependencies: []
 path: ""
 permissions:
   - STORAGE_DOWNLOADS
 defaultUsername: ""
 defaultPassword: ""
-disabled: true
+disabled: false
