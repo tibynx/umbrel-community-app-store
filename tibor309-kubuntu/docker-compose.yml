@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/webtop:kubuntu@sha256:65b98a7048026839adb52bfeae46d4b2ba066de124c140f222e2b91e54a746db
+    image: ghcr.io/tibor309/webtop:kubuntu@sha256:fa5c23aa89757b73018def710704aca708c0af1ae297cbb4e01d7f226dfaad64
     restart: on-failure
     environment:
       - PUID=1000

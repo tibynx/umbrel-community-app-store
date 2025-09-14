@@ -7,8 +7,6 @@ category: Desktops
 version: "24.04 LTS"
 port: 3456
 description: >-
-  ⚠ This app is disabled as there are no more updates that work without HTTPS on Umbrel.
-
   Kubuntu is a user-friendly Linux distribution based on Ubuntu that features the KDE Plasma desktop environment. 
 
   It is designed to be easy to use and provides a modern and visually appealing interface, making it suitable for both new and experienced users.
@@ -34,4 +32,4 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-disabled: true
+disabled: false
