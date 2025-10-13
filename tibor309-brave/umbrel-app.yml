@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/icon.svg
 category: networking
-version: "1.81.137"
+version: "1.82.172"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -22,14 +22,18 @@ gallery:
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/4.png
 releaseNotes: >-
   New changes:
-    - Upgraded Chromium to 139.0.7258.158.
+    - Fixed crash which could occur when using Cyrillic or other locale characters in the omnibox in certain cases on Linux.
+    - Fixed issue where Brave-hosted MV2 extensions may not update.
+    - Upgraded Chromium to 140.0.7339.207.
+    - Added GPU acceleration support for Umbrel.
 
 
-  Full release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.81.137
+  Full release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.82.172
 dependencies: []
 path: ""
 permissions:
   - STORAGE_DOWNLOADS
+  - GPU
 defaultUsername: ""
 defaultPassword: ""
 disabled: false
