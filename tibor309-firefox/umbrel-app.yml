@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/icon.svg
 category: networking
-version: "142.0.1"
+version: "143.0.3"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -27,17 +27,18 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Dragging multiple non-adjacent tabs in horizontal tab strip mode now correctly moves them together as a group.
-    - Dragging multiple tabs no longer causes toolbar unresponsiveness or visual glitches.
-    - Fixed an issue where the text cursor appeared in the wrong location.
-    - Fixed an issue where the expand on hover feature in the sidebar would sometimes stop working.
+    - Fixed an issue that prevented some extensions from updating via the Add-ons Manager.
+    - Fixed a regression that prevented Firefox View sections from collapsing/expanding as expected.
+    - Addressed a WebExtensions storage issue that could cause Firefox to crash on startup with certain extensions installed.
+    - Reduced long delays when loading certain websites while connected to networks that block UDP connections.
 
 
-  Full release notes can be found at https://www.mozilla.org/en-US/firefox/142.0.1/releasenotes/
+  Full release notes can be found at https://www.mozilla.org/en-US/firefox/143.0.3/releasenotes/
 dependencies: []
 path: ""
 permissions:
   - STORAGE_DOWNLOADS
+  - GPU
 defaultUsername: ""
 defaultPassword: ""
 disabled: false
