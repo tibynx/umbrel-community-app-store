@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/firefox:143.0.3@sha256:72513405b3474c510cb2ffacf1add049b4923e0687a72c41c8e7ad2c96536039
+    image: ghcr.io/tibor309/firefox:144.0.2@sha256:20e6fa522c9bb19bf4f56ee81a8ce31f8bb6bd2c019fdaff87d074fb75c9c43a
     restart: on-failure
     environment:
       - PUID=1000
