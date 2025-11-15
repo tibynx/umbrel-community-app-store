@@ -6,7 +6,7 @@ version: "1.41.6.9685"
 tagline: Stream Movies & TV Shows
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/heads/master/plex/icon.svg
 description: >-
-  ⚠️ This version of Plex is an outdated, unsupperted version. This app will not be updated until a bypass can be found for Plex's new Watch Pass requirement.
+  ⚠️ This version of Plex is an older, unsupperted version. Do not install other Plex apps alongside this one! This version is only kept for those who need it!
 
 
   Stream movies and TV shows, plus 300+ channels of live TV, instantly, without a subscription. Watch live TV and movies anywhere, from any device, with Plex.
