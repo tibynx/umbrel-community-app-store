@@ -3,11 +3,11 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: tibor309-brave_server_1
+      APP_HOST: tibynx-brave_server_1
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/brave:1.84.141@sha256:ba7f06cd5959596a3b1e9cdd57140133a05c704c99b56b64233d157f91607c20
+    image: ghcr.io/tibynx/brave:1.84.132@sha256:1cc45b511529cc92e122d91d31eff13ac43294a44be2bcdcc1b5340d5e7cc4b7
     restart: on-failure
     environment:
       - PUID=1000
