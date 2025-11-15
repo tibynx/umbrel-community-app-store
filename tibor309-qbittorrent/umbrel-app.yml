@@ -42,3 +42,4 @@ defaultPassword: ""
 torOnly: false
 permissions:
   - STORAGE_DOWNLOADS
+disabled: true
