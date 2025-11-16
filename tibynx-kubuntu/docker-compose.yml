@@ -3,11 +3,11 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: tibor309-kubuntu_server_1
+      APP_HOST: tibynx-kubuntu_server_1
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/webtop:kubuntu@sha256:fa5c23aa89757b73018def710704aca708c0af1ae297cbb4e01d7f226dfaad64
+    image: ghcr.io/tibynx/webtop:kubuntu@sha256:fa5c23aa89757b73018def710704aca708c0af1ae297cbb4e01d7f226dfaad64
     restart: on-failure
     environment:
       - PUID=1000
