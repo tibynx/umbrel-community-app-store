@@ -3,11 +3,11 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: tibor309-ubuntu_server_1
+      APP_HOST: tibynx-ubuntu_server_1
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibor309/webtop:ubuntu@sha256:53c62dead53058e861b8cfe35cfaf3472d0c76e6f39bdb7b66712f8484843295
+    image: ghcr.io/tibynx/webtop:ubuntu@sha256:53c62dead53058e861b8cfe35cfaf3472d0c76e6f39bdb7b66712f8484843295
     security_opt:
       - seccomp:unconfined
     restart: on-failure
