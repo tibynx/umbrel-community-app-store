@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: tibor309-plex
+id: tibynx-plex
 category: media
 name: Plex
 version: "1.41.6.9685"
@@ -46,4 +46,4 @@ releaseNotes: >-
     - Clarified wording for "Include adult content" preference
 
   Full release notes are available at https://www.videohelp.com/software/Plex
-submitter: Tibor309
+submitter: tibynx
