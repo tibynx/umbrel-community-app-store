@@ -1,8 +1,8 @@
 manifestVersion: 1
-id: tibor309-zorinos-core
+id: tibynx-zorinos-core
 name: Zorin OS Core
 tagline: Make your computer better
-icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/icon.svg
+icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-zorinos-core/icon.svg
 category: Desktops
 version: "17.3"
 port: 3588
@@ -11,14 +11,14 @@ description: >-
   It features a modern and intuitive interface, making it easy for anyone to use, regardless of their technical background.
 developer: Zorin Group
 website: https://zorin.com/os/
-submitter: Tibor309
+submitter: tibynx
 submission:
-repo: https://github.com/tibor309/webtop/tree/zorinos-core
-support: https://github.com/tibor309/webtop/issues
+repo: https://github.com/tibynx/webtop/tree/zorinos-core
+support: https://github.com/tibynx/webtop/issues
 gallery:
-  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/1.png
-  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/2.png
-  - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-zorinos-core/3.png
+  - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-zorinos-core/1.png
+  - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-zorinos-core/2.png
+  - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-zorinos-core/3.png
 releaseNotes: >-
   Zorin OS 17.3 is now released! Heres what's new:
 
