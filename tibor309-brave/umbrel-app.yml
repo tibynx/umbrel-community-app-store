@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/icon.svg
 category: networking
-version: "1.84.132"
+version: "1.84.141"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -22,16 +22,11 @@ gallery:
   - https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-brave/4.png
 releaseNotes: >-
   New changes:
-    - Enabled password syncing by default for new Brave Sync instances.
-    - Improved adblocking.
-    - Updated the bookmark folder icon in the bookmark bar.
-    - Updated active tab to use selected color theme.
-    - Updated split view tabs to use selected color theme.
-    - Fixed issue where sometimes the sidebar is not shown when the mouse is moved quickly to the edge of fullscreen window.
-    - Upgraded Chromium to 142.0.7444.60.
+    - Fixed selected "Payment Method" for Meld not being passed to the Widget.
+    - Upgraded Chromium to 142.0.7444.176.
 
 
-  Full release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.84.132
+  Full release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.84.141
 dependencies: []
 path: ""
 permissions:
