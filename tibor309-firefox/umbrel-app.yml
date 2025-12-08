@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibor309/umbrel-community-app-store-gallery/refs/heads/main/tibor309-firefox/icon.svg
 category: networking
-version: "144.0.2"
+version: "145.0.2"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -27,12 +27,14 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Fixed an issue where the list of available locales in about:settings contained more locales than were downloaded or currently supported.
-    - Fixed an issue where using the keyboard to open the Unified Search dropdown was inconsistent. The dropdown now expands properly, allowing users to select a search engine using the keyboard.
-    - Fixed an issue where curated photo collections on Microsoft OneDrive's Photos “For You” page failed to load, showing a gray screen instead of content. Collections now display as expected.
+    - New and improved PDF editing tools.
+    - Improved privacy features.
+    - Several bug fixes.
 
 
-  Full release notes can be found at https://www.mozilla.org/en-US/firefox/144.0.2/releasenotes/
+  Release notes for 145.0: https://www.firefox.com/en-US/firefox/145.0/releasenotes/
+  Release notes for 145.0.1: https://www.firefox.com/en-US/firefox/145.0.1/releasenotes/
+  Release notes for 145.0.2: https://www.firefox.com/en-US/firefox/145.0.2/releasenotes/
 dependencies: []
 path: ""
 permissions:
