@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibynx/webtop:ubuntu@sha256:53c62dead53058e861b8cfe35cfaf3472d0c76e6f39bdb7b66712f8484843295
+    image: tibynx/webtop:ubuntu-20260101-220459@sha256:ffa6522a9e1c82e53be4c04f991670def8eb135e1a592a1dda21cae41d101a8d
     security_opt:
       - seccomp:unconfined
     restart: on-failure
