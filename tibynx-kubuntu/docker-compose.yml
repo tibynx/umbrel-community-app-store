@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: ghcr.io/tibynx/webtop:kubuntu@sha256:fa5c23aa89757b73018def710704aca708c0af1ae297cbb4e01d7f226dfaad64
+    image: tibynx/webtop:kubuntu-20260101-213338@sha256:69635ec4f69aeef63a9a2ab4f2ad2ad4526241635808b22a60cd099879ae5aa2
     restart: on-failure
     environment:
       - PUID=1000
