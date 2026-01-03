@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-firefox/icon.svg
 category: networking
-version: "145.0.2"
+version: "146.0.1"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -27,14 +27,13 @@ releaseNotes: >-
 
 
   Highlights include:
-    - New and improved PDF editing tools.
-    - Improved privacy features.
-    - Several bug fixes.
+    - Improved overall stability by fixing crashes related to browsing, graphics, and accessibility features.
+    - Fixed crashes related to media playback and GMP process shutdown.
+    - Improved sidebar text contrast when using vertical tabs with certain themes.
 
 
-  Release notes for 145.0: https://www.firefox.com/en-US/firefox/145.0/releasenotes/
-  Release notes for 145.0.1: https://www.firefox.com/en-US/firefox/145.0.1/releasenotes/
-  Release notes for 145.0.2: https://www.firefox.com/en-US/firefox/145.0.2/releasenotes/
+  Release notes for 146.0: https://www.firefox.com/en-US/firefox/146.0/releasenotes/
+  Release notes for 146.0.1: https://www.firefox.com/en-US/firefox/146.0.1/releasenotes/
 dependencies: []
 path: ""
 permissions:
