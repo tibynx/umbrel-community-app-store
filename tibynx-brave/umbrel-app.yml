@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/icon.svg
 category: networking
-version: "1.84.141"
+version: "1.85.118"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -22,11 +22,10 @@ gallery:
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/4.png
 releaseNotes: >-
   New changes:
-    - Fixed selected "Payment Method" for Meld not being passed to the Widget.
-    - Upgraded Chromium to 142.0.7444.176.
+    - Upgraded Chromium to 143.0.7499.169.
 
 
-  Full release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.84.141
+  Full release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.85.118
 dependencies: []
 path: ""
 permissions:
