@@ -6,7 +6,6 @@ An app store featuring my projects and apps for [umbrelOS](https://umbrel.com/um
 | --- | --- | --- |
 | [**Brave**](https://github.com/tibynx/brave) |  A privacy-focused browser that blocks ads and trackers by default, offering faster browsing and built-in cryptocurrency wallet support.  | Networking |
 | [**Firefox**](https://github.com/tibynx/firefox) | An open-source browser known for its customizability, strong privacy features, and support for a wide range of extensions.  | Networking |
-| [**Fedora KDE Plasma Desktop**](https://github.com/tibynx/webtop/tree/fedora-kde) | A Fedora-based desktop environment featuring the modern and highly customizable KDE Plasma interface, designed for productivity and performance.  | Desktops |
 | [**Ubuntu**](https://github.com/tibynx/webtop/tree/ubuntu) | A popular Linux distribution known for its user-friendly interface, stability, and extensive community support.  | Desktops |
 | [**Kubuntu**](https://github.com/tibynx/webtop/tree/kubuntu) | An official Ubuntu flavor that uses the KDE Plasma desktop environment, combining Ubuntu's stability with KDE's flexibility and customization options. | Desktops |
 | [**Zorin OS Core**](https://github.com/tibynx/webtop/tree/zorinos-core) | A user-friendly Linux distribution designed to resemble Windows, offering a sleek interface, stability, and a smooth transition for new Linux users. | Desktops |
