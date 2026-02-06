@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: tibynx/firefox:146.0.1@sha256:9be7f3f209392df66c990e7460de0896e64cf32c56159d284fffe98bfb8bc387
+    image: tibynx/firefox:147.0.2@sha256:a70ff866f138b3c2fad5b343d2ee6b5f62d59a7b420ef8690e42b8701734dbb9
     restart: on-failure
     environment:
       - PUID=1000

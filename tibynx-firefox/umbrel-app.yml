@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-firefox/icon.svg
 category: networking
-version: "146.0.1"
+version: "147.0.2"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -27,13 +27,16 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Improved overall stability by fixing crashes related to browsing, graphics, and accessibility features.
-    - Fixed crashes related to media playback and GMP process shutdown.
-    - Improved sidebar text contrast when using vertical tabs with certain themes.
+    - Improved video playback performance on systems with AMD GPUs.
+    - Firefox now allows you to customize your keyboard shortcuts.
+    - A Picture-in-Picture player window can now optionally be opened automatically for a video playing in a tab when that tab goes into the background.
+    - Fixed compatibility problems with websites that use the new Compression Dictionaries technology, such as ChatGPT, by temporarily disabling the feature.
+    
 
 
-  Release notes for 146.0: https://www.firefox.com/en-US/firefox/146.0/releasenotes/
-  Release notes for 146.0.1: https://www.firefox.com/en-US/firefox/146.0.1/releasenotes/
+  Release notes for 147.0: https://www.firefox.com/en-US/firefox/147.0/releasenotes/
+  Release notes for 147.0.1: https://www.firefox.com/en-US/firefox/147.0.1/releasenotes/
+  Release notes for 147.0.2: https://www.firefox.com/en-US/firefox/147.0.2/releasenotes/
 dependencies: []
 path: ""
 permissions:
