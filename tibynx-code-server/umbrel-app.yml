@@ -1,0 +1,39 @@
+manifestVersion: 1.2
+id: tibynx-code-server
+name: code-server
+tagline: Run VS Code on your Umbrel
+icon: https://github.com/getumbrel/umbrel-apps-gallery/raw/refs/heads/master/code-server/icon.svg
+category: development
+version: "4.109.2"
+port: 8443
+description: >-
+  ⚠ This version of code-server uses the Linuxserver.io image to allow better
+  environment customization.
+
+  Run VS Code on your Umbrel and access it in the browser so you can
+  code on any device with a consistent development environment. This way you can
+  use your Umbrel not only to code from any device, anywhere, but to also speed
+  up tests, compilations, downloads, and more.
+
+
+  By running all intensive tasks run on your Umbrel, preserve battery life of your devices when you're on the go.
+developer: Linuxserver.io
+website: https://coder.com
+submitter: tibynx
+submission:
+repo: https://github.com/linuxserver/docker-code-server
+support: https://github.com/linuxserver/docker-code-server/issues
+gallery:
+  - https://github.com/getumbrel/umbrel-apps-gallery/raw/refs/heads/master/code-server/1.jpg
+  - https://github.com/getumbrel/umbrel-apps-gallery/raw/refs/heads/master/code-server/2.jpg
+  - https://github.com/getumbrel/umbrel-apps-gallery/raw/refs/heads/master/code-server/3.jpg
+releaseNotes: >-
+  This release updates the underlying VS Code editor to 1.109.2.
+
+
+  Full release notes are available at https://github.com/linuxserver/docker-code-server/compare/4.108.2-ls315...4.109.2-ls316
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

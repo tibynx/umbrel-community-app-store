@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: tibynx-code-server_server_1
+      APP_PORT: 8443
+
+  server:
+    image: lscr.io/linuxserver/code-server:4.109.2@sha256:3c6a1f70ba898b47d77dec0ce6d43a3a9223091587d3c57935607eefa77511da
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/config
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - DEFAULT_WORKSPACE=/config/workspace
+      - PWA_APPNAME=code-server
