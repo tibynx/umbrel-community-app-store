@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/icon.svg
 category: networking
-version: "1.86.146"
+version: "1.89.191"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -21,13 +21,18 @@ gallery:
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/3.png
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/4.png
 releaseNotes: >-
-  New changes:
-    - Fixed browser freezing/stalling at launch and when closing vertical tabs in certain cases.
-    - Fixed Google page being displayed under brave://history/syncedTabs in certain cases.
-    - Upgraded Chromium to 144.0.7559.110.
+  This release contains updates from version 1.86.146 to version 1.87.191.
 
+  Highlights include:
+    - Added the ability to “Copy download link” from the download panel.
+    - Improved adblocking.
+    - Improved vertical tabs.
+    - Fixed tab names being blank on Linux in certain cases.
+    - Fixed hidden elements on the New Tab Page being clickable when the search widget has focus.
+    - Fixed custom homepage address being displayed incorrectly in certain cases. 
+    - Upgraded Chromium to 145.0.7632.120.
 
-  Full release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.86.146
+  Release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.87.191
 dependencies: []
 path: ""
 permissions:
