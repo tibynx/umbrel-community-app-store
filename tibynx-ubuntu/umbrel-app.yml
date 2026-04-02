@@ -13,8 +13,8 @@ developer: Canonical Ltd.
 website: https://ubuntu.com/desktop
 submitter: tibynx
 submission:
-repo: https://github.com/tibynx/webtop/tree/ubuntu
-support: https://github.com/tibynx/webtop/issues
+repo: https://github.com/tibynx/webtop-kasmvnc/tree/ubuntu
+support: https://github.com/tibynx/webtop-kasmvnc/issues
 gallery:
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-ubuntu/1.png
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-ubuntu/2.png

@@ -16,7 +16,7 @@ developer: Mozilla Foundation
 website: https://www.mozilla.org/en-US/firefox/
 submitter: tibynx
 submission:
-repo: https://github.com/tibynx/firefox
+repo: https://github.com/tibynx/firefox-kasmvnc
 support: https://support.mozilla.org/en-US/products/firefox
 gallery:
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-firefox/1.png

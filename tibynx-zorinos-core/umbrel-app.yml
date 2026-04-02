@@ -13,8 +13,8 @@ developer: Zorin Group
 website: https://zorin.com/os/
 submitter: tibynx
 submission:
-repo: https://github.com/tibynx/webtop/tree/zorinos-core
-support: https://github.com/tibynx/webtop/issues
+repo: https://github.com/tibynx/webtop-kasmvnc/tree/zorinos-core
+support: https://github.com/tibynx/webtop-kasmvnc/issues
 gallery:
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-zorinos-core/1.png
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-zorinos-core/2.png
