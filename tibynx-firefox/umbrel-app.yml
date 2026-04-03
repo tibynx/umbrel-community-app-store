@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-firefox/icon.svg
 category: networking
-version: "148.0"
+version: "149.0"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -27,13 +27,17 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Added an AI Controls section to Settings for managing AI-enhanced features.
-    - New Tab wallpapers will now appear on new container tabs as well as new default tabs.
-    - Fixed an issue where a language pack could become disabled after a major update, causing Firefox to display in the wrong language.   
-    - Added policy to prevent closing the browser by closing the last open tab. 
+    - View two pages side-by-side in a single window with the new Split View feature. To create a split view, select one or two tabs and choose Add to Split View or Open in Split View.
+    - Firefox now offers a free built-in VPN. You will get 50 GB of protection every month, with the option to turn it on or off for specific websites. This feature is progressively rolling out in the US, UK, Germany and France starting today.
+    - Firefox now automatically blocks notifications and permanently revokes permissions for any website flagged as malicious by SafeBrowsing.  
+    - Address Autofill is enabled for users in Australia, India, Italy, Poland and Austria.
+    - Updated on-device translation support for Bosnian, Norwegian Bokmål, Serbian and Thai — plus improved accuracy for Croatian.
+    - Increased robustness of HTTP/3 upload performance for unstable network conditions.
+    - On Linux, Firefox will now default to the XDG portal file picker if available, rather than the GTK3 one.
+    - Updated graphics for Firefox error pages.
 
 
-  Release notes for 148.0: https://www.firefox.com/en-US/firefox/148.0/releasenotes/
+  Release notes for 149.0: https://www.firefox.com/en-US/firefox/149.0/releasenotes/
 dependencies: []
 path: ""
 permissions:
