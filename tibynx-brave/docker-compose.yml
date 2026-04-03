@@ -7,7 +7,7 @@ services:
       APP_PORT: 3000
 
   server:
-    image: tibynx/brave:1.87.191@sha256:3343ce14bd4f455e33509489c130c8e10ca4d3f0cb02e04939c0c7cdbafe4be1
+    image: tibynx/brave:1.88.136@sha256:24d40905f67c3cac306c548cea0c64bc82de9dfc48093541bb0178c338f5f444
     restart: on-failure
     environment:
       - PUID=1000
