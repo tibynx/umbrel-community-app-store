@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/icon.svg
 category: networking
-version: "1.88.136"
+version: "1.90.128"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -21,20 +21,17 @@ gallery:
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/3.png
   - https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/4.png
 releaseNotes: >-
-  This release contains updates from version 1.87.191 to version 1.88.136.
+  This release contains updates from version 1.88.137 to version 1.90.128.
 
   Highlights include:
-    - Addressed an XSS vulnerability by fixing the "Gate3" explorer URL validation.
-    - Added an "Ultra dark theme" option, updated the themes/colors for Private and Tor windows, and updated the 12-hour clock widget on the New Tab Page to display AM/PM.
-    - Added settings to let users hide the "Share menu" icon and the "Install app" icon for PWAs directly from the address bar.
-    - Implemented a persistent search box at the top of the brave://settings page, replacing the old top navigation bar.
-    - Enabled the "Local Network Access" permission by default.
-    - Fixed an issue where the Rewards panel displayed the wrong verified creator in certain edge cases.
-    - Fixed a visible separator at the top of videos when watching in fullscreen mode.
-    - Fixed missing tab favicons when a pinned tab is restored while vertical tabs are enabled.
-    - Upgraded Chromium to 146.0.7680.164.
+    - Improved vertical tabs.
+    - Added a new “regex-path-template” debounce action type.
+    - Added prefix and suffix for custom scriptlet names.
+    - Added “Use scrollable tab strip” setting under brave://settings/appearance.
+    - Fixed some styling issues for dark theme.
+    - Upgraded Chromium to 148.0.7778.217.
 
-  Release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.88.136
+  Release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.90.128
 dependencies: []
 path: ""
 permissions:
