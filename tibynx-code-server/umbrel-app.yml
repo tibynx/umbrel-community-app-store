@@ -4,7 +4,7 @@ name: code-server
 tagline: Run VS Code on your Umbrel
 icon: https://github.com/getumbrel/umbrel-apps-gallery/raw/refs/heads/master/code-server/icon.svg
 category: development
-version: "4.113.0"
+version: "4.131.0"
 port: 8443
 description: >-
   ⚠ This version of code-server uses the Linuxserver.io image to allow better
@@ -28,10 +28,10 @@ gallery:
   - https://github.com/getumbrel/umbrel-apps-gallery/raw/refs/heads/master/code-server/2.jpg
   - https://github.com/getumbrel/umbrel-apps-gallery/raw/refs/heads/master/code-server/3.jpg
 releaseNotes: >-
-  Updating to 4.113.0
+  Updating to 4.131.0
 
 
-  Full release notes are available at https://github.com/linuxserver/docker-code-server/compare/4.109.2-ls316...4.113.0-ls326
+  Full release notes are available at https://github.com/linuxserver/docker-code-server/compare/4.130.0-ls353...4.131.0-ls354
 dependencies: []
 path: ""
 defaultUsername: ""
