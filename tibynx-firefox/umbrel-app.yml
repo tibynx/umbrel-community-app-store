@@ -4,7 +4,7 @@ name: Firefox
 tagline: Get the browser that protects what’s important
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-firefox/icon.svg
 category: networking
-version: "151.0.3"
+version: "153.0.1"
 port: 3783
 description: >-
   Get the gold standard for browsing with speed, privacy and control.
@@ -27,20 +27,18 @@ releaseNotes: >-
 
 
   Highlights include:
-    - Improved Split View.
-    - Firefox’s built-in VPN now lets you choose your browsing location.
-    - The built-in VPN is now available for users in Canada. Currently available in: Canada, France, Germany, United Kingdom, United States
-    - You can now use Firefox’s built-in PDF editor to reorder, copy, paste, delete, merge, and export pages in a PDF.
-    - Local network access restrictions are now rolling out to all users. (progressive roll out)
-    - Local Firefox profile backups are now available on Linux.
-    - Added button to clear browsing data in Private Browsing Mode.
-    - Updated Firefox Home (New Tab) with a fresh look.
-    - Fixed a crash experienced by users with Intel Raptor Lake CPUs.
-    - Fixed an issue where some websites could render incorrectly or fail to load when they used JavaScript to insert WebKit-specific style rules.
-    - Fixed an issue where Firefox stopped caching new content once the disk cache was full, causing pages and resources to be re-downloaded from the network on every visit.
+    - Share any open page with a QR code. Right-click a tab, select Share > Generate QR Code.
+    - Quickly pick and copy a color from any page by typing "pick color", "color picker", or "eyedropper" in the address bar and selecting the "Pick a color" quick action.
+    - Firefox now highlights the location permission icon in red whenever a website has access to your location.
+    - Extensions can no longer access local files by default.
+    - Local Network Access restrictions are now enabled by default for all users. Firefox requires websites to request permission before connecting to devices on your local network or to apps and services on your device.
+    - Fixed audio playing silently on some music and audio streaming sites after pausing and resuming playback (Bug 2053586).
+    - Fixed the New Tab page background flashing a few seconds after the page loaded when a custom wallpaper was in use (Bug 2056650).
+    - Fixed a crash that could occur while typing text in an editable area of a page (Bug 2053867).
 
 
-  Release notes for 151.0.3: https://www.firefox.com/en-US/firefox/151.0.3/releasenotes/
+  Release notes for 153.0.1: https://www.firefox.com/en-US/firefox/153.0.1/releasenotes/
+  Release notes for 153.0: https://www.firefox.com/en-US/firefox/153.0/releasenotes/
 dependencies: []
 path: ""
 permissions:
