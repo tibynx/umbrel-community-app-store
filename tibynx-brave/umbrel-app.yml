@@ -4,7 +4,7 @@ name: Brave
 tagline: The browser that puts you first
 icon: https://raw.githubusercontent.com/tibynx/umbrel-community-app-store-gallery/refs/heads/main/tibynx-brave/icon.svg
 category: networking
-version: "1.90.128"
+version: "1.93.129"
 port: 3578
 description: >-
   The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
@@ -24,14 +24,17 @@ releaseNotes: >-
   This release contains updates from version 1.88.137 to version 1.90.128.
 
   Highlights include:
-    - Improved vertical tabs.
-    - Added a new “regex-path-template” debounce action type.
-    - Added prefix and suffix for custom scriptlet names.
-    - Added “Use scrollable tab strip” setting under brave://settings/appearance.
-    - Fixed some styling issues for dark theme.
-    - Upgraded Chromium to 148.0.7778.217.
+    - Added "Use compact mode" setting under brave://settings/appearance.
+    - Added "Local history retention" setting under brave://settings/privacy.
+    - Added context menu to the tab search button.
+    - Added new WebGPU webcompat content settings type.
+    - Updated some icons.
+    - Updated the sidebar to work independently from side panels.
+    - Fixed issue where custom high-resolution background uploads for the New Tab Page caused the browser to get stuck in a loading state.
+    - Fixed inability to play H.265/HEVC videos on Windows and Linux.
+    - Upgraded Chromium to 151.0.7922.71.
 
-  Release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.90.128
+  Release notes can be found at https://github.com/brave/brave-browser/releases/tag/v1.93.129
 dependencies: []
 path: ""
 permissions:
